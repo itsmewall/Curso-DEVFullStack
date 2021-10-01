@@ -1,0 +1,79 @@
+body {
+    background: rgb(226, 226, 226);
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    margin: 0;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+.profile {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.social-icons {
+width: 30px;
+}
+.social-links {
+    text-decoration: none;
+}
+
+.github {
+    margin: 0 15px 0 15px;
+}
+
+.foto-principal {   
+
+    width: 200px;
+    border: 2px solid #ffffff; /*short handed*/
+    border-radius: 50%;
+    margin: 30px 30px 0 0;
+    padding: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 10px;
+    letter-spacing: -1px;
+}
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: rgb 73 73 73;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+h4 {
+    margin-bottom: 5px;
+
+}
+h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+p {
+    line-height: 25px;
+    margin-top: 0;
+}
+
+.jobs-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.footer {
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    
+}

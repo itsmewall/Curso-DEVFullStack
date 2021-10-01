@@ -1,0 +1,44 @@
+body {
+    background: rgb(255, 255, 255);
+    font-family:  'Roboto', sans-serif;
+    color: rgb(24, 24, 24);
+    margin: 0;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.foto-principal {
+    width: 200px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20%;
+    margin: 40px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+h1 {
+margin-bottom: 0;
+margin-top: 10px;
+letter-spacing: -1px;
+}
+
+h2 {
+    margin-top: 0%;
+    margin-bottom: 5;
+    font-style: italic;
+    color: rgb 73 73 73;
+    font-weight: 150;
+}
+
+p{
+    line-height: 25px;
+}
+
