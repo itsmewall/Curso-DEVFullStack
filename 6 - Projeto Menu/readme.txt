@@ -1,0 +1,1 @@
+Arquivos com um fim apenas didático e para aplicação de conhecimentos. Nenhum código tem aplicação real.

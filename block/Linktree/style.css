@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(54,77,204);
+    background: linear-gradient(185deg, rgba(54,77,204,1) 0%, rgba(22,34,103,1) 50%);
+    color: white;
+}
+
+.foto {
+    width: 200px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20%;
+    margin: 40px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+.foto img {
+    max-width: 200px;
+}
+
+.profile {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0;
+}
