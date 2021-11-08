@@ -1,0 +1,63 @@
+
+
+@import "base";
+@import "variables";
+@import "mixin";
+@import "extends";
+
+body {
+    background-color: black;
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-around;
+
+    .box {
+        padding: 20px;
+        width: 30%;
+        color: black;
+        background-color: white;
+        border-radius: 8px;
+
+        &.active {
+                background: red;
+        }
+
+        h2 {
+                font-family: sans-serif;
+                font-size: 22px;
+        }
+
+        p {
+                font-size: 8px;
+                font-family: sans-serif;
+        }
+
+        ul {
+            @include reset-list;
+        }
+
+        a {
+            color: green;
+            
+            &:hover {
+                color: yellow;
+            }
+        }
+        
+        .success {
+            @extend %box-alert;
+            @include bg-effect(success);
+        }
+        .warning {
+            @extend %box-alert;
+            @include bg-effect(warning);
+        }
+        .danger {
+            @extend %box-alert;
+            @include bg-effect(danger);
+        }
+    }
+}
